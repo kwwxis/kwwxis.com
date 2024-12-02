@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kwwxis</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    ul {
+      padding: 5px 0 5px 30px;
+    }
+    a {
+      display: inline-block;
+      color: hwb(198deg 2% 24%);
+    }
+    
+    .box {
+      padding: 50px;
+      max-width: 650px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .box .logo {
+      width: 100%;
+      height: auto;
+    }
+    
+    @media (max-width: 530px) {
+      .link-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0;
+      }
+      .link-list a {
+        display: block;
+        padding: 10px;
+        background: hwb(198deg 2% 24% / 2%);
+        border: 1px solid hwb(198deg 2% 24%);
+        margin: 0 8px 8px 0;
+        text-decoration: none;
+      }
+      .link-list a:hover {
+        background: hwb(198deg 2% 24% / 5%);
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img class="logo" src="./kwwxis.png" alt="kwwxis logo" />
+      <h1>kwwxis.com</h1>
+      <h2>Welcome to my website</h2>
+      <p>Why are you here?</p>
+      <hr style="margin:20px 0"/>
+      <ul class="link-list">
+        <li><a href="https://www.reddit.com/u/kwwxis">My reddit profile</a></li>
+        <li><a href="https://genshin-impact.fandom.com/wiki/User:Kwwxis">My Genshin wiki profile</a></li>
+        <!--<li><a href="https://zenless-zone-zero.fandom.com/wiki/User:Kwwxis">My ZZZ wiki profile</a></li>-->
+      </ul>
+    </div>
+  </body>
+</html>
